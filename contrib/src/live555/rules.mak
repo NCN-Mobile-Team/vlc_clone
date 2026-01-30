@@ -78,6 +78,8 @@ endif
 	$(APPLY) $(SRC)/live555/add-pkgconfig-file.patch
 	# Expose Server:
 	$(APPLY) $(SRC)/live555/expose_server_string.patch
+	# SHIT!!!
+	$(APPLY) $(SRC)/live555/file-add-frame.patch
 	# Fix creating static libs on mingw
 	$(APPLY) $(SRC)/live555/mingw-static-libs.patch
 	# FormatMessageA is available on all Windows versions, even WinRT
